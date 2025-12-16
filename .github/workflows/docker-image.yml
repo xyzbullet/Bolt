@@ -23,4 +23,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: creativeteas2/void:latest
+        tags: creativeteas2/bolt:latest
