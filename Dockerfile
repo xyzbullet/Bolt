@@ -5,8 +5,8 @@ WORKDIR /app
 
 COPY ["package.json", "./"]
 
-RUN pnpm i
+RUN npm i
 
 COPY . .
 
-CMD [ "pnpm", "start"]
+CMD [ "npm", "start"]
